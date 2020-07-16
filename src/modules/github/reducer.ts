@@ -35,5 +35,6 @@ const github = createReducer<GithubState, GithubAction>(initialState, {
             error: action.payload
         }
     }),
-
 });
+
+export default github;
